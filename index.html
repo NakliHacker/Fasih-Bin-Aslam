@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AURELIA — luxury fragrance collection.">
+  <title>AURELIA — The Art of Scent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader"><div class="loader-logo">AURELIA</div><div class="loader-line"><span></span></div></div>
+  <div class="cursor"></div><div class="cursor-dot"></div>
+  <header class="nav">
+    <a class="brand" href="#home">AURELIA<span>®</span></a>
+    <nav class="nav-links"><a href="#shop">Collection</a><a href="#story">Our Story</a><a href="#notes">Notes</a><a href="#journal">Journal</a></nav>
+    <div class="nav-actions"><button aria-label="Search" class="icon-btn" id="searchBtn">⌕</button><button aria-label="Wishlist" class="icon-btn" id="wishBtn">♡</button><button aria-label="Cart" class="cart-btn" id="cartBtn">Bag <b id="cartCount">0</b></button><button class="menu-btn" id="menuBtn">☰</button></div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div><div class="hero-copy reveal"><p class="eyebrow">PARFUM · EAU DE PARFUM</p><h1>Wear your<br><i>presence.</i></h1><p class="hero-text">A modern collection of unforgettable fragrances, composed to linger long after you leave.</p><a class="gold-btn magnetic" href="#shop">Discover the collection <span>↗</span></a></div>
+      <div class="hero-bottle reveal"><div class="mist"></div><div class="bottle"><div class="cap"></div><div class="neck"></div><div class="glass"><div class="label">AURELIA<small>NO. 07</small></div></div></div><div class="bottle-shadow"></div></div>
+      <div class="hero-side">EST. 2026 <span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="ticker"><div>CRAFTED IN SMALL BATCHES · NATURAL ESSENCES · FREE SHIPPING OVER $100 · CRAFTED IN SMALL BATCHES · NATURAL ESSENCES ·</div></section>
+
+    <section class="intro section-pad reveal" id="story"><div class="section-label">01 — THE HOUSE</div><div class="intro-grid"><h2>Fragrance is<br><i>memory in motion.</i></h2><div><p>AURELIA creates expressive perfumes for people who don't need to announce their presence. Each composition balances rare botanicals, modern accords and timeless craft.</p><a class="text-link" href="#notes">Explore our philosophy <span>→</span></a></div></div></section>
+
+    <section class="shop section-pad" id="shop"><div class="section-head"><div><div class="section-label">02 — THE COLLECTION</div><h2>Signature <i>scents</i></h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="women">Feminine</button><button class="filter" data-filter="men">Masculine</button><button class="filter" data-filter="unisex">Unisex</button></div></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="feature section-pad"><div class="feature-image"><div class="feature-orb"></div><div class="feature-bottle small"><div class="cap"></div><div class="neck"></div><div class="glass"><div class="label">AURELIA<small>NO. 01</small></div></div></div></div><div class="feature-copy reveal"><div class="section-label">03 — ICONIC</div><p class="eyebrow">NO. 01 · EAU DE PARFUM</p><h2>Golden <i>Hour</i></h2><p>Warm amber, velvet rose and Madagascar vanilla melt into a radiant skin scent. Soft at first. Impossible to forget.</p><div class="notes"><span>TOP<br><b>Bergamot</b></span><span>HEART<br><b>Rose · Iris</b></span><span>BASE<br><b>Amber · Vanilla</b></span></div><button class="outline-btn add-feature">Add to bag — $145</button></div></section>
+
+    <section class="notes-section section-pad" id="notes"><div class="section-label">04 — THE PALETTE</div><h2>Find your <i>note.</i></h2><div class="note-cards"><div class="note-card"><span>01</span><strong>Floral</strong><p>Rose · Jasmine · Iris</p></div><div class="note-card"><span>02</span><strong>Woody</strong><p>Cedar · Sandalwood · Vetiver</p></div><div class="note-card"><span>03</span><strong>Amber</strong><p>Vanilla · Musk · Resin</p></div><div class="note-card"><span>04</span><strong>Fresh</strong><p>Bergamot · Neroli · Fig</p></div></div></section>
+
+    <section class="quote"><div class="quote-mark">“</div><blockquote>A great fragrance is not what people notice first.<br>It's what they remember <i>last.</i></blockquote><p>— THE AURELIA JOURNAL</p></section>
+
+    <section class="journal section-pad" id="journal"><div class="section-head"><div><div class="section-label">05 — JOURNAL</div><h2>The <i>world</i> of AURELIA</h2></div><a class="text-link" href="#">View all stories →</a></div><div class="journal-grid"><article><div class="journal-img j1"></div><p>CRAFT</p><h3>Inside the art of perfume composition</h3></article><article><div class="journal-img j2"></div><p>INGREDIENTS</p><h3>Why Madagascar vanilla changes everything</h3></article><article><div class="journal-img j3"></div><p>RITUAL</p><h3>How to make your fragrance last all day</h3></article></div></section>
+
+    <section class="newsletter"><div class="section-label">06 — STAY CLOSE</div><h2>Enter the <i>world.</i></h2><p>Private launches, scent stories and 10% off your first order.</p><form id="newsletter"><input type="email" placeholder="Your email address" required><button>Join us →</button></form></section>
+  </main>
+
+  <footer><div class="footer-top"><a class="brand" href="#home">AURELIA<span>®</span></a><p>THE ART OF SCENT.</p></div><div class="footer-grid"><div><b>SHOP</b><a href="#shop">All fragrances</a><a href="#shop">Feminine</a><a href="#shop">Masculine</a><a href="#shop">Unisex</a></div><div><b>ABOUT</b><a href="#story">Our story</a><a href="#notes">Ingredients</a><a href="#journal">Journal</a><a href="#">Contact</a></div><div><b>FOLLOW</b><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">TikTok</a></div><div><b>HELP</b><a href="#">Shipping</a><a href="#">Returns</a><a href="#">FAQ</a></div></div><div class="footer-bottom"><span>© 2026 AURELIA PARFUMS</span><span>Privacy · Terms</span></div></footer>
+
+  <aside class="cart-panel" id="cartPanel"><div class="cart-head"><h3>Your bag</h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p class="empty">Your bag is waiting.</p></div><div class="cart-total"><span>Subtotal</span><b id="cartTotal">$0</b></div><button class="gold-btn checkout">Checkout <span>→</span></button></aside><div class="overlay" id="overlay"></div>
+  <div class="search-panel" id="searchPanel"><button id="closeSearch">×</button><input id="searchInput" placeholder="Search fragrances..."><div id="searchResults"></div></div>
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
